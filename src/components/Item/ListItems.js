@@ -16,7 +16,7 @@ getData.then(res => setData(res));
 
 }, [])
     return(
-        <div>
+        <div  className="d-flex flex-wrap">
         <ItemList data={data} />
         </div>
     )

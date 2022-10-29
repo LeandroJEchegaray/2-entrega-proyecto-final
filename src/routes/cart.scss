@@ -1,0 +1,39 @@
+.cart-card {
+
+    width: 60rem;
+    border: 1px solid#505050;
+    border-radius: 4px;
+    position: relative;
+    padding: 1rem;
+    margin: 1rem;
+}
+.card-img {
+    height: 5rem;
+    width: 10rem!important;
+    object-fit: cover;
+}
+.card-button-remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.cart-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card-title {
+    text-align: center;
+} 
+.card-title-container { 
+    width: 100%;
+}
+.card-buttons {
+    display: flex;
+
+    padding: 1rem;
+}
+.card-button {
+    margin: 1rem;
+}

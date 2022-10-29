@@ -6,7 +6,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import DetailContainer from './components/Item/DetailContainer';
 import Home from '../src/routes/Home';
 import Cart from './routes/Cart';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import * as bootstrap from 'bootstrap'
+import Footer from './components/Footer'
+import {CartProvider} from './context/CartContext';
 
 
 function App() {
@@ -15,14 +18,20 @@ function App() {
     <div className="App">
     
     <BrowserRouter>
+    <CartProvider>
+
     < NavBar />
+
     <Routes>
     <Route path='/' element={<Home/>}/>
-      <Route path='/Games' element={<ListItems/>}/>
+      <Route path='/Products' element={<ListItems/>}/>
       <Route path='/Detail/:id' element={<DetailContainer/>}/>
       <Route path='/Cart' element={<Cart/>}/>
     </Routes>
+
+    </CartProvider>
   </BrowserRouter>
+  <Footer/>
     
     
     
