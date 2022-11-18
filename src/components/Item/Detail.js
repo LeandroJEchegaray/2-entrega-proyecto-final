@@ -29,19 +29,18 @@ const Detail = ({ info }) => {
             <div className="d-flex justify-content-center">
                 <div className="col-lg-4 col-md-12 col-sm-12">
                     <div className="row">
-                        <img src={info.img} className="img-fluid"
-                            alt="el patio: nachos" />
+                        <img src={info?.img} className="img-fluid"/>
                     </div>
 
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-12 border-mid card-container">
                     <div className="row">
 
-                        <h4 className="item-title">{info.name}</h4>
+                        <h4 className="item-title">{info?.name}</h4>
                         <div>
 
                         </div>
-                        <h4 className="item-title"><span>$</span>{info.price}</h4>
+                        <h4 className="item-title"><span>$</span>{info?.price}</h4>
                     </div>
 
                     <div className="row d-flex">

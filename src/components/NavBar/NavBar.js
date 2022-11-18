@@ -5,7 +5,7 @@ import logo from './logo1.png'
 import './nav.scss'
 import { CartContext } from '../../context/CartContext';
 import { useContext} from 'react';
-
+import Categories from '../../routes/Categories';
 
 const NavBar = () => {
     const {cartLenght} = useContext(CartContext);
@@ -34,7 +34,7 @@ const NavBar = () => {
                 </div>
             </div>
         </nav>
-       
+        <Categories></Categories>
 
     </div>
 

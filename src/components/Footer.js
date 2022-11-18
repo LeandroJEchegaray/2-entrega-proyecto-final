@@ -10,7 +10,7 @@ const Footer = () => {
                     <span className="text-muted">© 2022 OPTIX</span>
                 </div>
 
-                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                     <li className="ms-3"><span className="text-muted btn"><box-icon name='facebook-square' type='logo' color='#303030' ></box-icon></span></li>
                     <li className="ms-3"><span className="text-muted btn"><box-icon name='instagram-alt' type='logo' color='#303030' ></box-icon></span></li>
                     <li className="ms-3"><span className="text-muted btn"><box-icon name='twitter' type='logo' color='#303030' ></box-icon></span></li>

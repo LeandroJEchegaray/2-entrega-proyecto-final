@@ -35,7 +35,7 @@ const Home = () => {
                     <div className="col-md-5 p-lg-5 mx-auto my-5">
                         <h1 className="display-4 fw-normal">SUMMER SALE</h1>
                         <p className="lead fw-normal">¡Las mejores ofertas para el verano!</p>
-                        <Link to={'./products'}className="btn btn-danger" >Ver productos</Link>
+                        <Link to={'./Products/Sun'}className="btn btn-danger" >Ver productos</Link>
                     </div>
 
                 </div>

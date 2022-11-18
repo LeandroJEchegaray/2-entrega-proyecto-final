@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  
   min-height: 100vh;
 }
 
@@ -44,4 +45,11 @@
     transform: rotate(360deg);
   }
   
+}
+.items-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
